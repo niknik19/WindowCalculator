@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Window Calculator</title>
+    <meta charset="UTF-16">
+</head>
+<body>
+
+
+<h2>Window calculator</h2>
+
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.2/themes/flick/jquery-ui.css">
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="https://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+
+<link href="css//windows-calculator.css" rel="stylesheet" />
+<script src="js/windows-calculator.js"></script>
+
+<div class="window-calculator">
+    <div class="wc-visualize">
+        <div class="wc-height">
+            <div class="wc-height-value">
+                <input />
+            </div>
+            <div class="wc-height-slider"></div>
+        </div>
+        <div class="wc-image"></div>
+        <div class="wc-width">
+            <div class="wc-width-slider"></div>
+            <div class="wc-width-value">
+                <input />
+            </div>
+        </div>
+    </div>
+
+    <div class="wc-parameters">
+        <div class="wc-window-type">
+            <h4>
+                Тип окна
+            </h4>
+            <select class="wc-type-select">
+                <option value="singwiged" data-style="background-image: url(&apos;//lorempixel.com/60/40/sports/1&apos;); ">Одностворчатое</option>
+                <option value="singwigedh" data-style="background-image: url(&apos;//lorempixel.com/60/40/sports/2&apos;); ">Одностворчатое</option>
+                <option value="singwigedhv" data-style="background-image: url(&apos;//lorempixel.com/60/40/sports/3&apos;); ">Одностворчатое</option>
+            </select>
+        </div>
+        <div class="wc-window-profile">
+            <h4>
+                Профиль
+            </h4>
+            <select class="wc-profile-select">
+                <option value="1">Профиль 1</option>
+                <option value="2">Профиль 2</option>
+                <option value="3">Профиль 3</option>
+            </select>
+        </div>
+        <div class="wc-glazing-type">
+            <h4>
+                Стеклопакет
+            </h4>
+            <select class="wc-glazing-type-select">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+        </div>
+        <div class="wc-price"></div>
+        <button class="wc-calculate">Рассчитать</button>
+    </div>
+</div>
+
+</body>
+</html>

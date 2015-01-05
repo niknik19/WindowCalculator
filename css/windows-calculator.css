@@ -1,0 +1,104 @@
+﻿/*
+    Stylesheet for windows-calculator
+*/
+
+.window-calculator {
+    width: 640px;
+    height: 480px;
+}
+
+    .window-calculator .wc-visualize {
+        width: 430px;
+        height: 340px;
+        display: inline-block;
+    }
+
+    .window-calculator .wc-parameters {
+        display: inline-block;
+    }
+
+        .window-calculator .wc-parameters select {
+            width: 220px;
+        }
+
+    .window-calculator .wc-image {
+        display: inline-block;
+        width: 360px;
+        height: 200px;
+        vertical-align: middle;
+        background: #000;
+    }
+
+    .window-calculator .ui-slider-handle {
+        height: 0.7em;
+        width: 0.7em;
+        border-radius: 1em;
+    }
+
+    .window-calculator .wc-height-slider {
+        display: inline-block;
+        width: .2em;
+        height: 180px;
+        vertical-align: middle;
+    }
+
+    .window-calculator .wc-width-slider {
+        height: .2em;
+        width: 90%;
+        margin: 4% 10%;
+    }
+
+    .window-calculator .wc-parameters {
+        display: inline-block;
+        width: 150px;
+        height: 480px;
+        vertical-align: top;
+    }
+
+/* Custom select menu with images */
+
+ul.wc-type-select-ui li.ui-menu-item span.ui-icon {
+    width: 45px;
+    height: 25px;
+}
+
+ul.wc-type-select-ui li.ui-menu-item {
+    padding-left: 50px;
+}
+
+.window-calculator .wc-visualize .wc-height {
+    display: inline-block;
+    vertical-align: middle;
+    width: 55px;
+}
+
+    .window-calculator .wc-visualize .wc-height .wc-height-value {
+        width: 43px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+        .window-calculator .wc-visualize .wc-height .wc-height-value input {
+            width: 40px;
+        }
+
+.window-calculator .wc-visualize .wc-width-value {
+    margin: 4% 10%;
+}
+
+    .window-calculator .wc-visualize .wc-width-value input {
+        width: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 10px;
+    }
+
+.window-calculator .wc-parameters .wc-calculate {
+    width: 220px;
+    margin: 32px 0 0 0;
+}
+
+.window-calculator h4 {
+    margin: 0;
+}
